@@ -19,3 +19,9 @@ function century(year) {
   }  else return Math.ceil(year/100);
 }
 ```
+### Projects
+RS SCHOOL CV https://github.com/ShemetPr/rsschool-cv
+### Language
+* Russian - native
+* English - B1
+* Spanish - A1
