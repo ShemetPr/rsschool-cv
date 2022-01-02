@@ -1,1 +1,1 @@
-https://ShemetPr.github.io/rsschool-cv/cv
+https://shemetpr.github.io/rsschool-cv/cv
