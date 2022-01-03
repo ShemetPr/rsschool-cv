@@ -17,7 +17,7 @@ function century(year) {
   if (year[3] >= 1) {
     return Math.ceil(year/100)+1;
   }  else return Math.ceil(year/100);
-}
+};
 ```
 ### Projects
 RS SCHOOL CV https://github.com/ShemetPr/rsschool-cv
