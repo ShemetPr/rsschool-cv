@@ -1,0 +1,229 @@
+body {
+    margin: 10px auto;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container {
+    background-color: rgb(238, 210, 175);
+    height: 2290px;
+    margin: 100px;
+    padding: 30px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    border-radius: 5%;
+}
+
+.my-photo{
+    
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-image: url(assets/photo.jpg);
+    /*гадо добавить фотку*/
+    border-radius: 50%;
+  
+}
+.name {
+
+    margin: 10px auto;
+    height: 70px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.contact-information{
+    
+    margin: auto;
+    height: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.contacts{
+    text-align: center;
+    padding: 10px 50px;
+    border-top: 1px solid #858486;
+    border-bottom: 1px solid #858486;
+    
+}
+li {
+    display: inline;
+    padding: 10px;
+    
+}
+.email {
+    border-left: 1px solid #858486;
+    border-right: 1px solid #858486;
+}
+
+.main {
+    align-content: center;
+   
+    margin: 20px auto;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.summary {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    width: 700px;
+    height: 360px;
+}
+.education {
+    height: 480px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.E1  {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 5%;
+    
+}
+.economics {
+    animation-name: Appearance;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+  width: 300px;
+  height: 200px;
+  border-radius: 5%;
+}
+@keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.description-1 {
+    font-size: 40px;
+    margin: 25px;
+}
+.E2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 5%;
+}
+.tecnological {
+    animation-name: Appearance;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+  width: 300px;
+  height: 200px;
+  border-radius: 5%;
+}
+@keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.description-2 {
+    font-size: 40px;
+    margin: 25px;
+}
+.education-1 {
+    margin-top: 40px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+.title-working-skills {
+    margin-top: 40px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+.icons-working-skills {
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.html-icon-description {
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.css-icon-description {
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.js-icon-description {
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.git-icon-description {
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.github-icon-description {
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.icons-language {
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.title-language {
+    margin-top: 40px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+.russian-description {
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.english-description {
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.spanish-description {
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+.year {
+    font-weight: 300;
+    font-size: 30px;
+}
+.title-code {
+    margin-top: 30px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    
+}
+pre {
+    background-color: blanchedalmond;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
