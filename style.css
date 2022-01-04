@@ -7,7 +7,7 @@ body {
 .container {
     background-color: rgb(238, 210, 175);
     height: 2290px;
-    margin: 160px;
+    margin: 100px;
     padding: 30px;
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
     border-radius: 5%;
@@ -224,6 +224,6 @@ pre {
     background-color: blanchedalmond;
     text-align: center;
     width: 300px;
-    margin: 0 auto;
+    margin: 10px auto;
     margin-bottom: 30px;
 }
