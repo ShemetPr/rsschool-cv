@@ -1,3 +1,260 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: auto;
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    padding: 24px 24px 0px 24px;
+    background-color: #FFF9EB;
 }
+
+main {
+    max-width: 960px;
+    line-height: 24px;
+}
+
+.header_block {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-bottom: 32px;
+}
+
+.header_photo_img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 50%;
+}
+
+.header_info_name {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    color: #5D0D18;
+}
+
+.header_info_location {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.telegram_link {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #555555;
+    background-color: #F0F0F0;
+    padding: 3px 6px 3px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.telegram_link:hover {
+    color: #F0F0F0;
+    background-color: #555555;
+    cursor: pointer;
+}
+
+.header_info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+    font-size: 10px;
+    color: #5D0D18;
+    line-height: 14px;
+    padding-left: 150px;
+}
+
+.nav_link {
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    padding: 2px 6px 2px;
+    border-radius: 3px;
+    color: #5D0D18;
+    background-color: #FFF9EB;
+}
+
+.nav_link:hover {
+    color: #FFF9EB;
+    background-color: #5D0D18;
+    cursor: pointer;
+}
+
+.navigation > div:not(:last-child) {
+    margin-bottom: 2px;
+}
+
+.about_me_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 32px;
+    width: 600px;
+    background-color: rgba(159, 178, 172, 0.2);;
+    padding: 24px;
+    border-radius: 20px;
+    line-height: 24px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+    color: #5D0D18
+}
+
+.about_me_text {
+    margin: 0;
+    font-size: 14px;
+}
+
+.skills_block {
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.skills_list {
+    font-size: 14px;
+    margin: 0;
+}
+
+.skills_list > li:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.education_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.education_list {
+    font-size: 14px;
+    margin: 0;
+}
+
+.education_list > li:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.code_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.code_example > pre {
+    margin: 0;
+}
+
+.languages_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.languages_list {
+    font-size: 14px;
+    margin: 0;
+}
+
+.languages_list > li:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.contacts_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.contacts_list {
+    font-size: 14px;
+    margin: 0;
+}
+
+.contacts_list > li:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+
+.github_link {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #555555;
+    background-color: #F0F0F0;
+    padding: 3px 6px 3px;
+    border-radius: 15%;
+    transition: background-color 0.3s ease;
+}
+
+.github_link:hover {
+    color: #F0F0F0;
+    background-color: #555555;
+    cursor: pointer;
+}
+
+.footer_block {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    width: 600px;
+    padding: 24px;
+    line-height: 24px;
+}
+
+.github_footer_link {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    padding: 4px 6px 4px;
+    border-radius: 3px;
+    color: #FFF9EB;
+    background-color: #5D0D18;
+}
+
+.github_footer_link:hover {
+    color: #5D0D18;
+    background-color: #FFF9EB;
+    cursor: pointer;
+}
+
+.year_2026 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5D0D18;
+}
+
+.footer_logo_img {
+    width: 100px;
+}
+
+
