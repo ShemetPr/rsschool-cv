@@ -3,8 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <main>
+        <header class="header_block">
+            <div class="header_photo">
+                <img class="header_photo_img" src="images/cv-photo.jpg" alt="cv photo">
+            </div>
+            <div class="header_info">
+                <h1 class="header_info_name">Anastasiya Shemet</h1>
+                <div class="header_info_location">Minsk, Belarus</div>
+                <div class="header_info_link">
+                    <a class="telegram_link" href="https://t.me/flugelhornn">Telegram</a>
+                </div>
+            </div>
+            <nav class="navigation">
+                <div class="nav_item"><a class="nav_link" href="#about_me">About me</a></div>
+                <div class="nav_item"><a class="nav_link" href="#skills">Skills</a></div>
+                <div class="nav_item"><a class="nav_link" href="#education">Education</a></div>
+                <div class="nav_item"><a class="nav_link" href="#code_example">Code example</a></div>
+                <div class="nav_item"><a class="nav_link" href="#languages">Languages</a></div>
+                <div class="nav_item"><a class="nav_link" href="#contacts">Contacts</a></div>
+            </nav>
+        </header>
+        <div class="about_me_block">
+            <h2 class="about_me_title" id="about_me">About me</h2>
+            <p class="about_me_text">I'm a specialized graduate with five years of experience in layout design, graphic design, and copywriting. My focused professional education, combined with a diverse skill set, allows me to quickly grasp project requirements and deliver ready-made, high-quality solutions.</p>
+        </div>
+        <div class="skills_block">
+            <h2 class="skills_title" id="skills">Skills</h2>
+            <ul class="skills_list">
+                <li>Html, css, js</li>
+                <li>Figma, Canva</li>
+                <li>Adobe Illustrator, InDesign</li>
+                <li>Git</li>
+            </ul>
+        </div>
+        <div class="education_block">
+            <h2 class="education_title" id="education">Education</h2>
+            <ul class="education_list">
+                <li>Belarusian State Technological University, <i>Editorial and Publishing Technologie</i></li>
+                <li>JS/FE Pre-School 2021</li>
+            </ul>
+        </div>
+        <div class="code_block">
+            <h2 class="code_title" id="code_example">Code example</h2>
+            <div class="code_example">
+                <pre>function contentWeight(bottleWeight, scale) {
+
+  let arrSc = scale.split(" ").filter((_, index) => index !== 1);
+  let multipliar = Number(arrSc[0]) ;
+  if (arrSc[1] == 'larger') {
+    const bottle = bottleWeight / (multipliar + 1) ;
+    return bottle * Number(arrSc[0]) ;
+  } else if (arrSc[1] == 'smaller') {
+      const bottle = bottleWeight / (1 + 1 / multipliar)
+      return bottle / multipliar 
+    }
+}
+                </pre>
+            </div>
+        </div>
+        <div class="languages_block">
+            <h2 class="languages_title" id="languages">Languages</h2>
+            <ul class="languages_list">
+                <li>Russian - native speaker</li>
+                <li>English - B1</li>
+                <li>Spanish - A2</li>
+            </ul>
+        </div>
+        <div class="contacts_block">
+            <h2 class="contacts_title" id="contacts">My contact info</h2>
+            <ul class="contacts_list">
+                <li>Phone: +375 25 915-12-16</li>
+                <li>E-mail: shemet.privat@gmail.com</li>
+                <li>GitHub: <a class="github_link" href="https://github.com/ShemetPr">ShemetPr</a></li>
+            </ul>
+        </div>
+        <hr>
+        <footer class="footer_block">
+            <div class="gh_link"><a class="github_footer_link" href="https://github.com/ShemetPr">GITHUB LINK</a></div>
+            <div class="year_2026">2026</div>
+            <div class="footer_logo">
+                <a href="https://rs.school/courses/javascript-preschool-ru">
+                    <img class="footer_logo_img" src="images/rs-school-logo.svg" alt="Course logo">
+                </a>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>
